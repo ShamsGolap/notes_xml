@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="notes.xsl" type="text/xsl"?>
+<!DOCTYPE bloc_notes SYSTEM "blocnotes.dtd">
+<bloc_notes nom="Bloc notes des Dupondt">
+  <note id="1" date_creation="25 Janvier 2012" titre="Rechercher Tournesol">
+    <to nom="Dupont" prenom=""/>
+    <from nom="Dupond" prenom=""/>
+    <texte>Toujours plus haut</texte>
+  </note>
+  <note id="2" date_creation="26 Janvier 2012" titre="Rechercher portefeuille">
+    <to nom="Dupond" prenom=""/>
+    <from nom="Dupont" prenom=""/>
+    <texte>Attacher nos portefeuilles avec un élastique</texte>
+  </note>
+  <note id="3" date_creation="23 Février 2014" titre="Le site du zero">
+    <to nom="PapyMougeot79" prenom=""/>
+    <from nom="Pulse-X" prenom=""/>
+    <texte>Le site du zero c'est génial</texte>
+  </note>
+  <note id="4" date_creation="23 Février 2014" titre="Kesako ???">
+    <to nom="Dupont" prenom=""/>
+    <from nom="stefde3" prenom=""/>
+    <texte>Super bien fait ;)&#13;
+en revanche, les durées de transitions sont un peu trop longue à mon goût. un .4 ou .3 devrait être plus efficace.&#13;
+&#13;
+Bravo en tous cas pour ce site même si il n'a aucun intérêt à part peut-être pour laisser un commentaire ;)&#13;
+&#13;
+j'aime bien le footer :P</texte>
+  </note>
+  <note id="5" date_creation="23 Février 2014" titre="Nouvelle note">
+    <to nom="PapyMougeot79" prenom=""/>
+    <from nom="Pulse-X" prenom=""/>
+    <texte>Je rajoute une note pour bien voir les notes défilés</texte>
+  </note>
+  <note id="6" date_creation="23 Février 2014" titre="Salut Pulse-X ! ">
+    <to nom="Pulse-X" prenom=""/>
+    <from nom="PapyMougeot" prenom=""/>
+    <texte>Merci pour ta participation, j'avais un tout petit problème de cache apparemment, et je sais pas pourquoi ni comment, il s'est résout de lui-même :3 T'en penses quoi sinon maintenant ? Avec la nouvelle feature de suppression de notes :)</texte>
+  </note>
+  <note id="7" date_creation="23 Février 2014" titre="Re PapyMougeot">
+    <to nom="PapyMougeot" prenom=""/>
+    <from nom="Pulse-X" prenom=""/>
+    <texte>Alors personnellement ! je trouve sympa ce petit site :)</texte>
+  </note>
+  <note id="8" date_creation="23 Février 2014" titre="Re Pulse-X">
+    <to nom="Pulse-X" prenom=""/>
+    <from nom="PapyMougeot" prenom=""/>
+    <texte>Haha :) Merci :)&#13;
+A ton avis, ce ne serait pas mieux qu'on puisse voir les notes de la plus récente à la plus ancienne ? </texte>
+  </note>
+  <note id="10" date_creation="23 Février 2014" titre="Re PapyMougeot">
+    <to nom="PapyMougeot" prenom=""/>
+    <from nom="Pulse-X" prenom=""/>
+    <texte>Si c'est une bonne idée :)&#13;
+</texte>
+  </note>
+  <note id="11" date_creation="23 Février 2014" titre="Idée">
+    <to nom="PapyMougeot" prenom=""/>
+    <from nom="Pulse-X" prenom=""/>
+    <texte>Et pourquoi pas une recherche par auteur ou destinataire ?&#13;
+</texte>
+  </note>
+  <note id="12" date_creation="23 Février 2014" titre="Aïe ^^">
+    <to nom="Pulse-X" prenom=""/>
+    <from nom="PapyMougeot" prenom=""/>
+    <texte>Euh, j'ai bien peur que, pour le moment, je sois trop fatigué et sans les connaissances nécessaires pour le faire ... Quoi que ... :)&#13;
+Pourquoi pas, ce serait une bonne idée, effectivement, mais je le cale loin dans mes priorités :) Mais je garde "en note" :)</texte>
+  </note>
+  <note id="13" date_creation="23 Février 2014" titre=":)">
+    <to nom="PapyMougeot" prenom=""/>
+    <from nom="Pulse-X" prenom=""/>
+    <texte>Non mais je ne t'oblige pas a le faire c'est juste des idees je t'en est mis d'autres sur le site du zero</texte>
+  </note>
+  <note id="14" date_creation="2 Mars 2014" titre="Wouah">
+    <to nom="PapyMougeot" prenom=""/>
+    <from nom="Sa5m" prenom=""/>
+    <texte>Bouhouhou, je suis jalouse. Ton site est juste parfait. Moi j'ai encore tellement de chose à faire dessus... :'(</texte>
+  </note>
+  <note id="15" date_creation="4 Mars 2014" titre="Test de note">
+    <to nom="Tout le monde" prenom=""/>
+    <from nom="Moi" prenom=""/>
+    <texte>hohphophop</texte>
+  </note>
+</bloc_notes>

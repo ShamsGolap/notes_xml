@@ -1,0 +1,14 @@
+<!ELEMENT bloc_notes (note*)>
+<!ELEMENT note (to, from, texte)>
+<!ELEMENT to EMPTY>
+<!ELEMENT from EMPTY>
+<!ELEMENT texte (#PCDATA)>
+
+<!ATTLIST bloc_notes nom CDATA #REQUIRED>
+<!ATTLIST note id ID #REQUIRED>
+<!ATTLIST note date_creation CDATA #REQUIRED>
+<!ATTLIST note titre CDATA #REQUIRED>
+<!ATTLIST to nom CDATA #IMPLIED>
+<!ATTLIST to prenom CDATA #IMPLIED>
+<!ATTLIST from nom CDATA #IMPLIED>
+<!ATTLIST from prenom CDATA #IMPLIED>

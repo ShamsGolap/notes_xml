@@ -1,0 +1,278 @@
+*
+{
+	font-family: Calibri;
+	color: #fff;
+}
+
+body
+{
+	background: url("img/background_wood_black.jpg") fixed;
+	background-size: cover;
+	left: 0;
+	right: 0;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+nav
+{
+	float: left;
+	margin-top: -5em;
+	margin-left: 1em;
+	width: 15em;
+	left: 0;
+	position: fixed;
+	height: 100%;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+fieldset
+{
+	margin-top: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+input[type=text]
+{
+	border: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	font-size: 16px;
+	color: black;
+	background-color: #ccc;
+	transition: color .5s, background-color .5s ease-in;
+	-webkit-transition: color .5s, background-color .5s ease-in;
+}
+
+input[type=text]:focus
+{
+	color: white;
+	background-color: black;
+	border: none;
+	transition: color .5s, background-color .5s ease-in;
+	-webkit-transition: color .5s, background-color .5s ease-in;
+}
+
+input[type=submit]
+{
+	font-size: 16px;
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	cursor: pointer;
+	border-radius: 0px 10px 0px 10px;
+	background-color: black;
+	color: white;
+	border: none;
+	transition: all .5s ease-in;
+	-webkit-transition: all .5s ease-in;
+}
+
+input[type=submit]:hover
+{
+	color: black;
+	background-color: white;
+	border: none;
+	transition: all .5s ease-in;
+	-webkit-transition: all .5s ease-in;
+}
+
+textarea
+{
+	font-size: 16px;
+	width: 100%;
+	border: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #ccc;
+	color: black;
+	transition: color .5s, background-color .5s ease-in;
+	-webkit-transition: color .5s, background-color .5s ease-in;
+}
+
+textarea
+{
+	color: black;
+}
+
+textarea:focus
+{
+	border: none;
+	background-color: black;
+	color: white;
+	transition: color .5s, background-color .5s ease-in;
+	-webkit-transition: color .5s, background-color .5s ease-in;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+	color: black;
+	transition: color .5s ease-in;
+	-webkit-transition: color .5s ease-in;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: black;
+	transition: color .5s ease-in;
+	-webkit-transition: color .5s ease-in;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: black;
+	transition: color .5s ease-in;
+	-webkit-transition: color .5s ease-in;
+}
+
+:focus::-webkit-input-placeholder { /* WebKit browsers */
+	color: gray;
+	transition: color .5s ease-in;
+	-webkit-transition: color .5s ease-in;
+}
+:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: gray;
+	transition: color .5s ease-in;
+	-webkit-transition: color .5s ease-in;
+}
+:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: gray;
+	transition: color .5s ease-in;
+	-webkit-transition: color .5s ease-in;
+}
+
+select
+{
+	font-size: 16px;
+	width: 100%;
+	border: none;
+	border-radius: 0px 10px 0px 10px;
+	background-color: #ccc;
+	color: black;
+}
+
+select:focus
+{
+	background-color: #ccc;
+	color: black;
+}
+
+:target .titreNote
+{
+	border-radius: 0px 10px 0px 10px;
+	color: black;
+	background-color: white;
+	transition: color .5s, background-color .5s ease-in;
+	-webkit-transition: color .5s, background-color .5s ease-in;
+}
+
+option
+{
+	background-color: #ccc;
+	color: black;
+	cursor: pointer;	
+}
+
+option:hover
+{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+.en_tete_blocnotes
+{
+	text-align: center;
+	margin-left: 19em;
+	margin-right: 8em;
+}
+
+section.notes
+{
+	margin-left: 18em;
+	padding-left: 1em;
+	margin-right: 8em;
+	margin-bottom: 8em;
+	right: 0;
+}
+
+.titreNote
+{
+	text-align: center;
+}
+
+footer.footer_retour_site
+{
+	opacity: 1;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	position: fixed;
+	z-index: 1;
+	overflow: hidden;
+	background: url("img/background_wood_black.jpg") fixed;
+	background-size: cover;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.retour_site
+{
+	text-align: center;
+	display: block;
+	margin: auto;
+	width: 100px;
+	border-radius: 0px 10px 0px 10px;
+	background-color: black;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	transition: all .5s ease-in;
+	-webkit-transition: all .5s ease-in;
+}
+
+.retour_site:hover
+{
+	color: #000;
+	background-color: white;
+	transition: all .5s ease-in;
+	-webkit-transition: all .5s ease-in;
+}
+
+.note
+{
+	padding-top: 10px;
+	margin-bottom: 3em;
+}
+
+a#lirelasuite
+{
+	text-decoration: underline;
+}
+
+.date_note
+{
+	float: right;
+	padding-right: 5%;
+	margin-left: 5em;
+}
+
+::selection
+{
+	background-color: white;
+	color: black;
+}
+
+#date_heure
+{
+	display: block;
+	text-align: center;
+}
